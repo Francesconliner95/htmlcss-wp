@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+.container{
+    margin: 0 auto; /* centriamo il container all'interno del body */
+    width: 85%;
+}
+
+header{
+    margin-top: 20px;
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+    border: solid white 10px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+nav{
+background-color: #504741;
+height: 50px;
+width: 100%;
+box-shadow: 2px 2px 2px gray;
+/* content: "";
+display: table;
+clear: both; */
+}
+
+.menucont{
+    margin: 0 auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.menuitems{
+    display: inline-block;
+    border-right: solid black 2px ;
+    background-color: #504741;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+
+.menuitems::after{
+    content: "▼";
+}
+
+.menuitems:hover{
+    background-color: #302b27;
+}
+.menucont>span:last-child{
+    border: none;
+}
+.maincontainer{
+  margin-top: 20px;
+  content: "";
+  display: table;
+  clear: both; /*ci permette di far occupare spazio ai blocchi flottati, va applicato al contenitore dei blocchi inquanto sara' lui a definire lo stacco dagli altri blocchi esterni(header,footer) */
+}
+.left{
+/* height: 300px; */
+width: 25%;
+float: left;
+}
+
+.left-1, .left-2, .left-3{
+padding: 10px;
+background-color: white;
+margin-bottom: 10px;
+box-shadow: 2px 2px 2px darkgray;
+}
+
+h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #add78f;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-right: 100px;
+}
+
+a:hover{
+    background-color: lightgray;
+    text-decoration: underline;
+}
+
+.right{
+background-color: red;
+/* height: 300px; */
+width: 25%;
+float: left;
+}
+
+main{
+background-color: purple;
+/* height: 300px; */
+margin-left: 10px;
+margin-right: 10px;
+width: calc(50% - 20px);
+float: left;
+padding: 10px;
+}
+
+.sopra{
+background-color: white;
+padding: 10px;
+}
+
+button{
+    background-color: #504741;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+
+button:hover{
+    background-color: #302b27
+}
+
+input{
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.sotto{
+background-color: pink;
+margin: 10px;
+}
+
+footer{
+    background-color: green;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
