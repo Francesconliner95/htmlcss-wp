@@ -123,13 +123,16 @@ h3{
     font-size: 45px;
 }
 
+#sfondo{
+    background-size: cover;
+    background-position: center center;
+}
+
 #paragrafo{
     margin: 10px;
 }
 
-#sfondo{
-    background-size: cover;
-}
+
 
 .right{
 width: 25%;
