@@ -23,6 +23,16 @@ header{
     text-align: center;
     padding: 50px;
     box-shadow: 2px 2px 2px gray;
+    font-family:Arial;
+    font-style:Sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-weight: lighter;
 }
 
 nav{
@@ -121,10 +131,15 @@ float: left;
 
 h3{
     font-size: 45px;
+    text-shadow:4px 4px 4px darkgray;
+    font-family:Arial;
+    font-style:Sans-serif;
+    color: #444;
 }
 
 #sfondo{
     width: 100%;
+
 }
 
 #paragrafo{
